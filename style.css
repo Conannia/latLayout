@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    background-color: skyblue;
+    text-align: center;
+    font-size: 5vh;
+    border: 2px solid blue;
+}
+
+.path {
+    background-color: plum;
+    text-align: center;
+    font-size: 10vh;
+    border: 4px solid palevioletred;
+}
+
+.docktop {
+    background-color: lightyellow;
+    text-align: center;
+    font-size: 10vh;
+    border: 4px solid yellow;
+}
+
+.dock-body{
+    display: flex;
+    height: 50vh;
+}
+
+.dock-left{
+    width: 30vw;
+    background-color: pink;
+    border: 0.5vh solid red;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 18vh;
+    
+}
+
+.dock-mid{
+    width: 40vw;
+}
+
+.err{
+    background-color: deepskyblue;
+    height: 10vh;
+    border: 0.5vh solid purple;
+    text-align: center;
+    font-size: 35px;
+}
+.content{
+    background-color: lightgrey;
+    height: 38vh;
+    border: 0.5vh solid black;
+    text-align: center;
+}
+
+.content p{
+    padding: 100px 20px;
+    font-size: 50px;
+}
+
+.dock-right{
+    width: 30vw;
+    background-color: lightgreen;
+    border: 0.5vh solid limegreen;
+    text-align: center;
+}
+
+.dock-right h1{
+    padding-top: 135px;
+}
+
+.dock-bottom{
+    background-color: lightskyblue;
+    height: 7vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border: 4px solid blue;
+}
+
+.dock-bottom p{
+    margin-top: 12px;
+}
+
+footer{
+    background-color: burlywood;
+    height: 10vh;
+    text-align: center;
+    font-size: 50px;
+    border: 6px solid darkred;
+}
